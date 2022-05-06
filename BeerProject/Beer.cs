@@ -74,6 +74,17 @@ namespace BeerProject
             bnew.percent = (this.volume * this.percent + beer.volume * beer.percent) / (this.volume + beer.volume);
             return bnew;
         }
+
+        public static Beer Mix(Beer beer1, Beer beer2)
+        {
+            Beer bnew = new Beer();
+            bnew.brewery = beer1.brewery + " " + beer2.brewery;
+            bnew.beerName = beer1.beerName + " " + beer2.beerName;
+            bnew.beerType = BeerType.MIX;
+            bnew.volume = beer1.volume + beer2.volume;
+            bnew.percent = (beer1.volume * beer1.percent + beer2.volume * beer2.percent) / (beer1.volume + beer2.volume);
+            return bnew;
+        }
         public override string ToString()
         {
             return string.Format("Navn:{0} Beername:{1} Beertype:{2} Volume:{3} Percentage:{4} Genstande {5}", _brewery, _beerName, _beerType, _volume, _percent, GetUnits());
