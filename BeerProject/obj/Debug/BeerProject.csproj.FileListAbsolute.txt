@@ -1,0 +1,7 @@
+C:\Users\noahg\RiderProjects\BeerProject\BeerProject\bin\Debug\BeerProject.exe
+C:\Users\noahg\RiderProjects\BeerProject\BeerProject\bin\Debug\BeerProject.pdb
+C:\Users\noahg\RiderProjects\BeerProject\BeerProject\obj\Debug\BeerProject.csproj.AssemblyReference.cache
+C:\Users\noahg\RiderProjects\BeerProject\BeerProject\obj\Debug\BeerProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\noahg\RiderProjects\BeerProject\BeerProject\obj\Debug\BeerProject.csproj.CoreCompileInputs.cache
+C:\Users\noahg\RiderProjects\BeerProject\BeerProject\obj\Debug\BeerProject.exe
+C:\Users\noahg\RiderProjects\BeerProject\BeerProject\obj\Debug\BeerProject.pdb
